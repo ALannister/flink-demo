@@ -19,6 +19,8 @@
 package spendreport;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.streaming.api.functions.source.ParallelSourceFunction;
+import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunction;
 import org.apache.flink.table.api.java.BatchTableEnvironment;
 import org.apache.flink.walkthrough.common.table.SpendReportTableSink;
 import org.apache.flink.walkthrough.common.table.BoundedTransactionTableSource;
